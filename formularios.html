@@ -76,7 +76,6 @@
 
             <input type="radio" name="Genero" id="Genero"/>
             <label for="Genero">Femenino</label><br/>
-
             <h3>Categoría de producto a buscar</h3>
             <select name="" size="6" multiple>
                 <optgroup label="Alimentos">
@@ -95,9 +94,19 @@
                 <option>Productos de limpieza</option>
                 <option>Jardinería</option>
                 </optgroup>
-            </select>
-
-            <input type="submit"/>
+                
+                <label for="Marca"><br>Marca del Producto <br/></label>
+                <input type="text" name="Marca" id="Marca" list="Marcas"/><br>
+                <datalist id="Marcas">
+                <option>Samsung</option>
+                <option>Apple</option>
+                <option>LG</option>
+                <option>Huawei</option>
+                <option>Xiaomi</option>
+                <option>Sonny</option>
+                <option>Motorola</option>
+                <option>Mabe</option>
+            </datalist>
         </fieldset>
     </form>
 
